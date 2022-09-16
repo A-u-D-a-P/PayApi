@@ -1,0 +1,76 @@
+.realize {
+  max-width: 1015px;
+  height: 284px;
+  display: $row;
+  justify-content: $between;
+  align-items: $aic;
+
+  margin-top: 770px;
+  padding-bottom: 300px;
+}
+
+.realize__card {
+  width: 445px;
+  height: 284px;
+
+  background: #1b262f;
+  box-shadow: 25px 25px 80px rgba(54, 83, 107, 0.300727);
+  border-radius: 8px;
+  
+   
+}
+
+.realize__card p{
+   width: 381px;
+   height: 180px;
+   color: #fbfcfe;
+   font-family: $Mono;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 20px;
+}
+
+.realize-card__top {
+   width: 100%;
+   height: 45px;
+   background:#2E3F4D;
+   padding: 15px 16px;
+   border-radius:8px 8px 0 0;
+   -webkit-border-radius:8px 8px 0 0;
+   -moz-border-radius:8px 8px 0 0;
+   -ms-border-radius:8px 8px 0 0;
+   -o-border-radius:8px 8px 0 0;
+}
+
+.realize__img{
+   margin-top: 32px;
+   margin-left: 32px;
+}
+
+.realize__title {
+  width: 445px;
+  height: 164px;
+}
+
+.realize__title h2 {
+  font-family: $DMserif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  /* identical to box height, or 117% */
+  letter-spacing: -0.369231px;
+  color: #36536b;
+  margin-bottom: 24px;
+}
+
+.realize__title p {
+  font-family: "PublicSans-400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  /* or 187% */
+  color: #6c8294;
+}

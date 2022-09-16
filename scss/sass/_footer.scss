@@ -1,0 +1,47 @@
+.footer-left {
+  width: 432px;
+  display: $row;
+  justify-content: $between;
+  align-items: center;
+}
+.footer__logo {
+   width: 135px;
+   display: flex;
+   justify-content: space-between;
+   cursor: pointer;
+}
+.footer__nav {
+  width: 232px;
+  display: flex;
+  justify-content: $around;
+}
+
+.footer__nav .nav__link {
+  font-family: "PublicSans-700";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+  color: rgb(251, 252, 254, 0.7);
+}
+
+.footer__nav .nav__link:hover{
+   color:#FBFCFE;
+}
+
+.footer-right{
+   width: 120px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   cursor: pointer;
+}
+
+.footer__facebook, .footer__twitter, .footer__linkedin{
+   fill: #FBFCFE;
+}
+
+.footer__facebook:hover, .footer__twitter:hover, .footer__linkedin:hover{
+   fill: #DA6D97;   
+}

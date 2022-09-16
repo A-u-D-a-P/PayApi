@@ -1,0 +1,47 @@
+
+*, *::before, *::after{
+   margin: 0;
+   padding: 0;
+   box-sizing:border-box;
+   text-decoration: none;
+   list-style-type: none;
+}
+
+.page-container{
+   max-width: 1440px;
+   margin: 0 auto;
+   padding: 0;
+   box-sizing: border-box;
+   padding-top: 40px;
+   background: $main-color;
+}
+
+
+.header-container {
+   max-width: 1110px;
+   height: 48px;
+   margin: 0 auto;
+   padding: 0 20px;
+   display: $row;
+   justify-content: $between;
+   align-items: $aic;
+   
+}
+
+
+.main-container{
+   max-width: 1114px;
+   margin: 0 auto;
+   padding: 0;
+}
+
+
+.footer-container{
+   width: 100%;
+   height: 100px;
+   display: $row;
+   justify-content: $around;
+   align-items: $aic;
+   background:#1B262F;
+}
+
